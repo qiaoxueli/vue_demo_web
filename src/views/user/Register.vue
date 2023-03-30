@@ -1,6 +1,9 @@
 <template>
   <div id="index">
     <div class="register">
+      <h3 class="loginTitle">
+       注册
+     </h3>
 
       <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
         <el-form-item label="用户名" prop="name">

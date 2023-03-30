@@ -3,6 +3,9 @@
   <div class="login register">
 
   <el-form :model="ruleForm" status-icon :rules="rules" ref="ruleForm" label-width="100px" class="demo-ruleForm">
+    <h3 class="loginTitle">
+       登录
+     </h3>
   <el-form-item label="用户名" prop="name">
     <el-input  v-model="ruleForm.name"></el-input>
   </el-form-item>

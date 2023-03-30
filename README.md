@@ -22,3 +22,10 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+<!-- 
+git命令提交步骤：
+  git status 查看当前文件状态，红色为未提交到本地仓库
+  git add <fileName> 添加到git
+  git commit -m "描述"  提交到本地仓库
+  git push 推送到远程分支
+ -->

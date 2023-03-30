@@ -25,6 +25,7 @@
 
         <el-form-item>
           <el-button type="primary" @click="regist('ruleForm')">注册</el-button>
+          <el-button @click="gotolink()">已有账号，去登录</el-button>
           <el-button @click="resetForm('ruleForm')">重置</el-button>
         </el-form-item>
       
@@ -103,6 +104,9 @@ export default {
     },
 
     methods: {
+      gotolink() {
+        router.push({name:'login'});
+      },
       /* 注册 */
       regist(formName) {
         removeToken();

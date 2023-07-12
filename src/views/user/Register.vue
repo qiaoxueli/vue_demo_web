@@ -115,7 +115,7 @@ export default {
         removeToken();
         this.$refs[formName].validate((valid) => {
           if (valid) {
-            register(this.ruleForm.age, this.ruleForm.email).then((response) => {
+            register(this.ruleForm).then((response) => {
             const resp = response.data;
             if (response.code === "200") {
            console.log("注册成功")

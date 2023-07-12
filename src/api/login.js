@@ -12,13 +12,17 @@ export function login(name,password) {
   });
 }
 
-export function register(age,email) {
+export function register(dto) {
   return request({
       method:"post",
       url:"/user/register",
-      params:{
-          age,
-          email
-      }
+      data:dto
+  });
+}
+
+export function getUser() {
+  return request({
+      method:"post",
+      url:"/user/list",
   });
 }

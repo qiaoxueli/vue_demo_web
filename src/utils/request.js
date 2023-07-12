@@ -14,7 +14,7 @@ const request = axios.create({
 // 比如统一加token，对请求参数统一加密
 request.interceptors.request.use(config => {
   console.log("request 拦截器")
-  config.headers['Content-Type'] = 'application/x-www-form-urlencoded';
+  config.headers['Content-Type'] = 'application/json;charset=UTF-8';
 // 设置请求头 重要的一步，不设置后端排除之外的接口不会携带请求头
   //有token才携带到后端  不然登录注册携带token会报错
  if (getToken()){

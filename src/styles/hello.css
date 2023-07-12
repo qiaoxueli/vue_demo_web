@@ -1,23 +1,23 @@
 #index {
-   width: 100vw;
+  width: 100vw; 
   height: 100vh;
-  /*margin: 0;
-  padding: 0; */
+  margin: 0;
+  padding: 0; 
   background: url(../assets/001.jpg) no-repeat;
   background-size:100% 100%;
   background-attachment:fixed;
 }
-.register{
+.register {
   border-radius: 15px;
   background-clip: padding-box;
-  margin: 180px auto;
+  margin: 0px auto;
   width: 500px;
   padding: 15px 40px 30px 15px;
   background: aliceblue;
   border:1px solid rgba(107, 182, 243, 0.89);
   box-shadow: 0 0 25px #85c8ff;
 }
-.loginTitle{
+.loginTitle {
   margin: 0px auto 48px auto;
   text-align: center;
   font-size: 36px;
